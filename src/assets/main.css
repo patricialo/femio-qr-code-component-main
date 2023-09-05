@@ -10,20 +10,21 @@
   background-color: hsl(212, 45%, 89%);
 }
 .qr-code-card {
-  max-width: 375px;
+  max-width: 320px;
 }
 .qr-code-card-copy > h2, .qr-code-card-copy > p {
   font-family: 'Outfit', sans-serif;
 }
 .qr-code-card-copy > h2 {
-  font-size: 25.5px;
+  font-size: 22px;
   font-weight: 700;
+  line-height: 120%;
   color: hsl(218, 44%, 22%);
-  line-height: 130%;
 }
 .qr-code-card-copy > p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
+  line-height: 130%;
   color: hsl(220, 15%, 55%);
 }
 .attribution { font-size: 11px; text-align: center; }
