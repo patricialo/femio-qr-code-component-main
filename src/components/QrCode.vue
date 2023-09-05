@@ -1,18 +1,23 @@
 <template>
   <div class="qr-code">
-    <img src="@/assets/images/image-qr-code.png" />
-  </div>
-  Improve your front-end skills by building projects
+    <div class="bg-white qr-code-card p-5 rounded-3xl">
+      <div class="rounded overflow-hidden">
+        <img class="w-full rounded-xl" src="@/assets/images/image-qr-code.png" alt="Frontend Masters QR code">
+        <div class="qr-code-card-copy px-5 py-6">
+          <h2 class="font-bold text-center mb-2">Improve your front-end skills by building projects</h2>
+          <p class="text-center text-base pt-2">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="attribution py-2">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/patricialo">Patricia Lopez</a>.
+    </div>
   </div>
 </template>
 
 <style scoped>
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
 </style>

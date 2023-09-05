@@ -1,35 +1,28 @@
-@import './base.css';
+@import "tailwindcss/base";
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import "tailwindcss/components";
 
-  font-weight: normal;
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.bg-light-gray {
+  background-color: hsl(212, 45%, 89%);
 }
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+.qr-code-card {
+  max-width: 375px;
 }
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.qr-code-card-copy > h2, .qr-code-card-copy > p {
+  font-family: 'Outfit', sans-serif;
 }
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.qr-code-card-copy > h2 {
+  font-size: 25.5px;
+  color: hsl(218, 44%, 22%);
+  line-height: 130%;
 }
+.qr-code-card-copy > p {
+  font-size: 18px;
+  color: hsl(220, 15%, 55%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
